@@ -1,0 +1,19 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Copy-Constructor.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  pch.cpp
+  Source.cpp
+C:\Users\user\Repos\C++\2022-11-30-cpp-study-copy-constructor\study\Study\Vector.h(156,43): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\user\Repos\C++\2022-11-30-cpp-study-copy-constructor\study\Study\Source.cpp(64): message : see reference to function template instantiation 'T &Vector<T>::EmplaceBack<int>(int &&)' being compiled
+          with
+          [
+              T=Vector3
+          ]
+C:\Users\user\Repos\C++\2022-11-30-cpp-study-copy-constructor\study\Study\Source.cpp(64): message : see reference to function template instantiation 'T &Vector<T>::EmplaceBack<int>(int &&)' being compiled
+          with
+          [
+              T=Vector3
+          ]
+  Study.vcxproj -> C:\Users\user\Repos\C++\2022-11-30-cpp-study-copy-constructor\study\x64\Debug\Study.exe

@@ -1,0 +1,17 @@
+﻿  Source.cpp
+C:\Users\user\Repos\C++\Copy-Constructor\Copy-Constructor\Vector.h(156,43): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\user\Repos\C++\Copy-Constructor\Copy-Constructor\Source.cpp(64): message : see reference to function template instantiation 'T &Vector<T>::EmplaceBack<int>(int &&)' being compiled
+          with
+          [
+              T=Vector3
+          ]
+C:\Users\user\Repos\C++\Copy-Constructor\Copy-Constructor\Source.cpp(64): message : see reference to function template instantiation 'T &Vector<T>::EmplaceBack<int>(int &&)' being compiled
+          with
+          [
+              T=Vector3
+          ]
+  Copy-Constructor.vcxproj -> C:\Users\user\Repos\C++\Copy-Constructor\x64\Debug\Copy-Constructor.exe
