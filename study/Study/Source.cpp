@@ -4,16 +4,6 @@
 #include "String.h"
 
 
-
-
-
-
-
-
-
-
-
-
 int main() {
 #if 0
 	{

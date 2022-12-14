@@ -224,7 +224,8 @@ private:
 		}
 
 		for (size_t i = 0; i < m_Size; i++) {
-			newBlock[i] = std::move(m_Data[i]);
+			//newBlock[i] = std::move(m_Data[i]);
+			new(&newBlock[i]) T(std::move(m_Data[i]));
 		}
 
 		for (size_t i = 0; i < m_Size; i++) {
